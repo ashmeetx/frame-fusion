@@ -1,0 +1,61 @@
+/* Custom Styles */
+.hero {
+    position: relative;
+    height: 100vh;
+    background-image: url('photo-1489094889106-39069373d6ef.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(66, 3, 3);
+}
+
+.gallery-item {
+    padding: 10px;
+}
+
+.testimonial-item {
+    text-align: center;
+    padding: 50px 100px;
+    margin-top: 50px;
+}
+.testimonial-pictures {
+    margin: 10px 50px;
+    padding: 0px;
+    position: relative;
+    right: 15%;
+}
+.details{
+    text-align: center;
+    margin: 50px;
+    font-style: italic;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Override Bootstrap Variables */
+:root {
+    --bs-primary: #17a2b8;
+    --bs-secondary: #6c757d;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .hero-content {
+        width: 80%;
+        position: relative;
+        top: 150px;
+    }
+
+}
